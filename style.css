@@ -4,6 +4,7 @@ body {
     Padding: 0px;
     margin: 0px;
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 
@@ -394,13 +395,11 @@ img {
 .form-group-inline {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    align-items: baseline;
+    gap: 60px;
 }
 
 .form-group-inline .form-group {
   width: 100%;
-  margin-right: 40px;
 }
 
 input, textarea {
@@ -433,7 +432,7 @@ button.submit-btn {
     border-radius: 30px;
     cursor: pointer;
     font-size: 16px;
-    width: auto;
+    max-width: 100px;
 }
 
 button.submit-btn:hover {
@@ -534,7 +533,7 @@ footer {
 
  .contact-form {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
  }
 
  .form-group-inline {

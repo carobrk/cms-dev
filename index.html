@@ -209,6 +209,26 @@
         <!-- Contact -->
         <div class="dark-back">
             <h1>Contact</h1>
+            <div class="container">
+
+                <form method="post" action="submit-form.php" class="contact-form">
+                    <div class="form-group-inline">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="E-Mail">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Type in here your message"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn" value="Submit">Submit</button>
+                </form>
+            </div>
         </div>
 
     </main>
