@@ -1,0 +1,5 @@
+// Web-Server Einstellungen
+
+php_flag display_errors On
+php_flag display_startup_errors On
+php_value error_reporting -1
